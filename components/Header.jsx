@@ -16,10 +16,7 @@ const Header = () => {
         <nav>
           <ul className={styles.navbar}>
             <li className={styles.link}>
-              <a href="/api/auth/login">Login</a>
-            </li>
-            <li className={styles.link}>
-              <a href="/api/auth/signup">Sign-up</a>
+              <Link href="/api/auth/login">Login</Link>
             </li>
           </ul>
         </nav>
